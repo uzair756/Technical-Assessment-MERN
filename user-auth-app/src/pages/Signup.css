@@ -1,0 +1,130 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.app-background {
+    background-image: url('/home/joey/user-auth-app/src/bg.jpg'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.signup-heading {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem; /* Increased font size */
+}
+
+.input-container {
+    margin-bottom: 25px; /* Increased margin for better spacing */
+}
+
+.signup-input {
+    width: 100%;
+    height: 45px; /* Increased height */
+    border-width: 5px;
+    border-radius: 25px;
+    border-color: black;
+    padding: 0 20px; /* Increased padding for better spacing */
+    background: #ffffff;
+    color: #000000;
+    font-size: 1rem; /* Increased font size */
+}
+
+.signup-input.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+.signup-button {
+    width: 100%;
+    height: 45px; /* Increased height */
+    margin-top: 15px; /* Increased margin for better spacing */
+    font-size: 1rem; /* Increased font size */
+}
+
+.success-message {
+    color: green;
+    margin-top: 15px; /* Increased margin for better spacing */
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.signin-container {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for the link container */
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signin-text {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.signin-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.signin-link:hover {
+    text-decoration: underline;
+}
+
+/* Additional media queries for responsiveness (optional) */
+@media (max-width: 768px) {
+    .signup-container {
+        padding: 20px;
+    }
+
+    .signup-heading {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .signup-input {
+        height: 40px; /* Adjusted height for smaller screens */
+        font-size: 0.9rem;
+    }
+
+    .signup-button {
+        height: 40px; /* Adjusted button size */
+        font-size: 0.9rem;
+    }
+
+    .signin-container {
+        margin-top: 15px; /* Margin for spacing */
+    }
+}
