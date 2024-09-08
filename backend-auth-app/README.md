@@ -1,26 +1,55 @@
-Instructions to Run the Project
-1. Download the Project Files from GitHub
-Go to the GitHub repository where the project is hosted.
-Click on the "Code" button and select "Download ZIP."
-Extract the downloaded ZIP file to your preferred directory.
-2. Open the Project in Your Code Editor
-Open your terminal or file explorer.
-Navigate to the extracted folder, then to the Technical-Assessment-MERN directory, and then to the backend-auth-app folder.
-Open the backend-auth-app folder in your preferred code editor (e.g., Visual Studio Code).
-3. Install the Necessary Dependencies
-In your code editor, open a new terminal window.
+# Project Name
 
-Run the following command to install all the required dependencies:
+Description of your project and its purpose.
 
-sh
-Copy code
-npm install express mongoose cors bcrypt jsonwebtoken
-4. Start the Server
-In the terminal, run the following command to start the server:
+## Getting Started
 
-sh
-Copy code
-node ./index.js
-5. Verify the Server is Running
-Ensure that the server has started correctly; you should see a message indicating that the server is running (e.g., "MongoDB connected").
-You can now access the server API at http://localhost:3000 (or the port your server is configured to use).
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js (v14 or later)
+- MongoDB (local or remote instance)
+
+### Installation
+
+1. **Clone the Repository**
+
+   Clone the repository to your local machine or download the ZIP file and extract it.
+
+   - Go to the GitHub repository where the project is hosted.
+   - Click on the "Code" button and select "Download ZIP".
+   - Extract the downloaded ZIP file to your preferred directory.
+
+2. **Navigate to the Project Directory**
+
+   Open your terminal or file explorer and navigate to the extracted folder, then to the `Technical-Assessment-MERN` directory, followed by the `backend-auth-app` folder.
+
+3. **Open the Project in Your Code Editor**
+
+   Open the `backend-auth-app` folder in your preferred code editor (e.g., Visual Studio Code).
+
+4. **Install Dependencies**
+
+   Install the required dependencies:
+
+   - In your code editor, open a new terminal window.
+   - Run the command: `npm install express mongoose cors bcrypt jsonwebtoken`.
+
+### Running the Server
+
+1. **Start the Server**
+
+   Start the server by running the command: `node ./index.js`.
+
+2. **Verify the Server is Running**
+
+   - Ensure that the server has started correctly; you should see a message indicating that the server is running (e.g., "MongoDB connected").
+   - The server will be running at `http://localhost:3000` (or the port your server is configured to use).
+
+### Additional Notes
+
+- Make sure that your MongoDB instance is running before starting the server.
+- Update any environment-specific configurations if needed.
+
