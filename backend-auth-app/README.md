@@ -38,7 +38,7 @@ Make sure you have the following installed:
 2. **Verify the Server is Running**
 
    - Ensure that the server has started correctly; you should see a message indicating that the server is running (e.g., "MongoDB connected").
-   - The server will be running at `http://localhost:3000` (or the port your server is configured to use).
+   - The server will be running at `http://localhost:3002` (or the port your server is configured to use).
 
 ### Additional Notes
 
