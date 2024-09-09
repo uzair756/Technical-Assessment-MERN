@@ -38,10 +38,11 @@ Make sure you have the following installed:
 2. **Verify the Server is Running**
 
    - Ensure that the server has started correctly; you should see a message indicating that the server is running (e.g., "MongoDB connected").
-   - The server will be running at `http://localhost:3002` (or the port your server is configured to use).
+   - The server will be running on port '3002`.
 
 ### Additional Notes
 
 - Make sure that your MongoDB instance is running before starting the server.
 - Update any environment-specific configurations if needed.
 
+replace ip in the cors code with the ip of your system so that cors can work properly
